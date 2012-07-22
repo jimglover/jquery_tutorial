@@ -1,8 +1,27 @@
+<!doctype html>
+
 <html>
+
+<head>
+<script src="jquery-1.7.2.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+  $("#hello-world").click(function() {
+    alert("This is an alert");
+  });
+
+});
+</script>
+
+</head>
 
 <body>
 
-<p>Hello World.</p>
+<p id="hello-world">Hello World!</p>
+
+<p id="goodbye-world">Buh-bye World!</p>
 
 </body>
 
